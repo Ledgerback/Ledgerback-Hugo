@@ -34,3 +34,5 @@ jobs:
           publish_dir: ./public
           publish_branch: master
           cname: http://www.ledgerback.coop
+          personal_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: Ledgerback/Ledgerback.github.io
